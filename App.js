@@ -223,6 +223,8 @@ const searchTasks = (list) => {
       <Pressable style={styles.clearButton} onPress={clearDone}>
         <Text style={{ color: 'purple' }}>Clear completed</Text>
       </Pressable>
+
+       {/* <Text style={{color:pers.isUni==true?'red':'green'}}>{pers.isUni==true?'Student':'Graduated'}</Text> */}
       <View style={{ flexDirection: 'row' }}>
   <View style={{ flex: 1, height: 50, backgroundColor: 'purple' }} />
   <View style={{ flex: 2, height: 50, backgroundColor: 'orange' }} />
