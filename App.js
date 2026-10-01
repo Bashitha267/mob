@@ -31,6 +31,10 @@ const formattedDate = currentDate.toLocaleDateString();
 // Set the current date as the initial input value.
 const [date, setDate] = useState(formattedDate);
 
+//useeffect
+// useEffect(() => {
+//     console.log('Current count:', count);
+//   }, [count]);
 
 
 const [search, setSearch] = useState('');
