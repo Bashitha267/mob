@@ -1,3 +1,7 @@
+//npm install -g expo-cli
+//npx create-expo-app@latest myapp --template blank
+
+
 import { useState } from 'react';
 import {
   Pressable,
